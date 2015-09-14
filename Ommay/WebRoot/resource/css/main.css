@@ -1,0 +1,34 @@
+.main {
+	width: 940px;
+	margin: 0 auto;
+}
+.rservation-title {
+	text-align: right;
+}
+.row-logo {
+	padding: 0 15px;
+}
+
+/*health_2.html*/
+.health2-title {
+	width: 100%;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+}
+
+/*contact.html*/
+.row-contact {
+	margin-top: 40px;
+}
+
+/*contact2.html*/
+.contact2-title {
+	font-size: 2.5em;
+	font-weight: 700;
+	color: rgb(158, 193, 162);
+}
+/*blog*/
+.row-blog {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

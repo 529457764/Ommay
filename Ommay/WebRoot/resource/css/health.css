@@ -1,0 +1,17 @@
+
+.health-pic {
+	border: none;
+}
+.msg-time {
+	width: 100px;
+	display: block;
+	float: left;
+	text-align: left;
+}
+.page-list {
+	text-align: center;
+}
+.page-list .pagination {
+	margin-top: 0;
+	margin-bottom: 0;
+}

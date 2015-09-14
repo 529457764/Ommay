@@ -1,0 +1,11 @@
+.row-job {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.page-list {
+	text-align: center;
+}
+.page-list .pagination {
+	margin-top: 0;
+	margin-bottom: 0;
+}

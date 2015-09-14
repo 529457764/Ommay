@@ -1,0 +1,104 @@
+body, td, th {
+  font-family: Verdana;
+  font-size: 12px;
+  color: #9d8e6e;
+  line-height: 180%;
+}
+
+#header{
+    margin: 0px auto;
+    width: 920px;
+    margin-top: 30px;
+    margin-bottom: 21px;
+}
+.header-right{
+    display: inline-block;
+    float: right;
+    color: rgb(72, 114, 113);
+}
+.header-right a{
+    font-size: 10px;
+}
+.carousel{
+    margin: 20px 0;
+}
+.carousel-indicators li{
+    background-color: blue;
+}
+.carousel-indicators .active {
+    background-color: green;
+}
+#carousel-example-generic{
+    width: 100%;
+}
+.carousel-inner .item img{
+    height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  width: 46px;
+  height: 46px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.carousel-control.left{
+    margin-left: -15px; 
+}
+
+/*    ���������������        */
+/*nav*/
+
+nav.navbar {
+    background-color: rgb(248, 220, 5);
+    border: none;
+    color: #000 !important;
+    margin-top: -17px;
+}
+nav.navbar ul li a {
+    color: rgb(25, 68, 67) !important;
+}
+nav.navbar ul li a:hover{
+    color: rgb(239, 78, 0) !important;
+}
+nav.navbar li.open>a {
+    background-color: rgb(255, 255, 128) !important;
+}
+.nav-left {
+    padding-left: 100px;
+}
+.nav-right {
+    padding-right: 110px;
+}
+.navbar-fixed-top {
+  top: 17px;
+  border-width: 0 0 1px;
+}
+/* ������html */
+#End {
+  padding-top: 47px;
+  padding-bottom: 1px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e6e2da;
+}
+
+.middle{
+    width: 920px;
+}

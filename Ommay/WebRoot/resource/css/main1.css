@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.tc {
+	text-align: center;
+}
+.btn-row {
+	margin-bottom: 10px;
+}
+.state-row {
+	text-align: right; 
+	padding-top: 10px;
+}
+.submit-row {
+	text-align: right;
+}
+
+.state2-row {
+	padding-top: 5px;
+}
+
+.bottom-line {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+/*vi_testAppointment*/
+.legend-text {
+	font-size: 14px;
+}
+
+/*showPage*/
+.show {
+	-webkit-animation:moveUp  .9s ease-in-out 0.2s backwards ;
+}
+
+@-webkit-keyframes moveUp{
+    0%{
+        -webkit-transform:translateY(100px);
+        opacity: 0; 
+    }
+    100%{
+        -webkit-transform:translateY(0px);
+        opacity: 1;  
+    }
+}

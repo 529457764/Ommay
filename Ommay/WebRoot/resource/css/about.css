@@ -1,0 +1,17 @@
+
+.body_div {
+  margin: 0px auto;
+  width: 920px;
+}
+.tab-pane p:first-child{
+    margin-top: 20px;
+}
+#A2 img{
+    margin-top: 20px;
+}
+.body_div img:first-child{
+    margin-top: 10px;
+}
+.Eqm img{
+    margin-top: 5px;
+}

@@ -1,0 +1,87 @@
+table th , table td{
+    text-align: center;
+}
+tr{
+    width: 100%;
+}
+.col-st{
+    width: 5%;
+}
+.col-md{
+    width: 10%;
+}
+.col-lg{
+    width: 15%;
+}
+tr td:nth-child(1) , tr td:nth-child(4){
+    width: 5%;
+}
+tr td:nth-child(2) , tr td:nth-child(3), tr td:nth-child(5)
+{
+    width: 15%;
+}
+tr td:nth-last-of-type(1) , tr td:nth-last-of-type(2){
+    width: 15%;
+ }
+ td a{
+    cursor: pointer;
+ }
+ .acc-Rpt .col-st{
+    width: 6%;
+ }
+ .acc-Rpt .col-md{
+    width: 13%;
+ }
+ .acc-Rpt .col-lg{
+    width: 20%;
+ }
+  .client .col-st{
+    width: 10%;
+ }
+ .client .col-md{
+    width: 16%;
+ }
+ .client .col-lg{
+    width: 23%;
+ }
+ #fill-user-info .form-group select{
+    display: inline-table;
+    width: 10%;
+    margin-left: 15px; 
+ }
+ #office-phone1{
+    width: 60px;
+ }
+ #pho-span{
+    margin-left: 9px;
+    float: left;
+ }
+ #office-phone2{
+    width: 108px;
+ }
+ #select-position{
+    width: 100%;
+ }
+ #select-position .container{
+    margin: 100px auto;
+    position: relative;
+    left: 25%;
+    text-align: center;
+ }
+#select-position label{
+    padding-top: 3px;
+    padding-left: 103px;
+    font-size: 19px;
+}
+#select-position select{
+    width: 150px;
+}
+#select-position button{
+    margin: 5px 20px;
+    padding: 4px 15px;
+    margin-left: 68px;
+}
+.pageChange{
+	margin:5px auto;
+	text-align: center;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:p="http://www.springframework.org/schema/p"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="
+	   		http://www.springframework.org/schema/beans  
+        	http://www.springframework.org/schema/beans/spring-beans-3.1.xsd  
+        	http://www.springframework.org/schema/context  
+        	http://www.springframework.org/schema/context/spring-context-3.1.xsd
+	   		http://www.springframework.org/schema/mvc
+	   		http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+	   		<!-- 扫描注解 -->
+	   		<context:component-scan base-package="com.ommay.controller*"/>
+	   		<context:component-scan base-package="com.ommay.service*"/>
+			<context:component-scan base-package="com.ommay.dao*"/>
+	   		<mvc:annotation-driven/>
+	   		<mvc:resources location="/resource/css/" mapping="/resource/css/**"/>
+			<mvc:resources location="/resource/js/" mapping="/resource/js/**"/>
+			<mvc:resources location="/resource/jquery/" mapping="/resource/jquery/**"/>
+			<mvc:resources location="/resource/bootstrap/" mapping="/resource/bootstrap/**"/>
+			<mvc:resources location="/resource/bootstrap/css/" mapping="/resource/bootstrap/css/**"/>
+			<mvc:resources location="/resource/bootstrap/js/" mapping="/resource/bootstrap/js/**"/>
+			<mvc:resources location="/resource/images/" mapping="/resource/images/**"/>
+			
+			<mvc:resources location="/" mapping="/*.html"/>
+	  <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/jsp/"/>
+		<property name="suffix" value=".jsp"/>
+	   </bean>
+	</beans>

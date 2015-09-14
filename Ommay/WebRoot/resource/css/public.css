@@ -1,0 +1,25 @@
+.alertMes{
+    position: fixed;
+    left: 41%;
+    top: 1px;
+    width: 286px;
+    height: 49px;
+    z-index: 999;
+    border-radius: 15px;
+    
+}
+.alertMes p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 9px;
+    color: rgba(51, 51, 51, 0.68);
+    font-size: 22px; 
+    font-weight: bolder;
+}
+.success{
+    background-color: rgba(55, 206, 46, 0.84);
+}
+.fail{
+    background-color: rgb(243, 226, 70);
+}
